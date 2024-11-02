@@ -1,0 +1,196 @@
+.title {
+  font-size: 48px;
+  line-height: 58.08px; 
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.subTitle {
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 48px;
+  opacity: .3;
+  font-size: 16px;
+}
+
+.table_wrapper {
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+
+}
+
+.table {
+  width: 100%;
+  border: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  border-collapse: collapse;
+  table-layout:fixed
+}
+
+.table_header {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 14.52px;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.id_column_title {
+  text-align: center;
+  width: 47px;
+  padding: 8.5px 19.5px;
+}
+
+.user_column_title {
+  padding-left: 12px;
+}
+
+.todoCount_column_title {
+  padding-right: 62px;
+  padding-left: 12px;
+  width: 168px;
+  padding: 8.5px 62px 8.5px 12px;
+}
+
+.table_header_text {
+  font-weight: 600;
+  text-align: start;
+}
+
+.table_row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  line-height: 19.36px;
+}
+
+.table_row:last-child,
+.table_row:first-child {
+  border-bottom: none;
+}
+
+.id_column {
+  text-align: center;
+}
+
+.todoCount_column {
+  width: 168px;
+  padding-left: 12px;
+  padding-right: 146px;
+}
+
+.user_column {
+  padding: 19.5px 8px;
+}
+
+.user_column_data {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user_avatar_wrapper{
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.user_avatar {
+  width: 20px;
+  height: 20px;
+}
+
+.user_info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+}
+
+.user_email {
+  line-height: 14.52px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  text-transform: lowercase;
+  text-decoration: none;
+  transition: color .5s ease ;
+}
+
+.user_email:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+@media screen and (width < 596px) {
+  body {
+    font-size: 12px;
+  }
+
+  #root {
+    padding: 56px 40px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 29.04px;
+  }
+  
+  .subTitle {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 24px;
+  }
+
+  .table_header {
+    line-height: 9.68px;
+  }
+
+  .id_column_title {
+    width: 37px;
+    padding: 11px 15.5px ;
+  }
+
+  .todoCount_column_title {
+    width: 86px;
+    padding: 0 9px;
+    text-align: center;
+  }
+  
+  .user_column {
+    padding: 12.5px 8px;
+  }
+
+  .table_row {
+    line-height: 14.52px;
+  }
+
+  .table_header_text {
+    font-size: 8px;
+  }
+
+  .todoCount_column {
+    padding: 0;
+    text-align: center;
+  }
+
+  .user_email {
+    font-size: 8px;
+    line-height: 12.1px;
+  }
+
+  .user_avatar_wrapper {
+    width: 28px;
+    height: 28px;
+  }
+
+  .user_avatar {
+    width: 12px;
+    height: 12px;
+  }
+}
