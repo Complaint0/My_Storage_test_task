@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/My_Storage_test_task/static/css/main.9db2c22f.css",
+    "main.js": "/My_Storage_test_task/static/js/main.e1dd5fa1.js",
+    "static/media/User_logo.svg": "/My_Storage_test_task/static/media/User_logo.60806a051fce8f57185cccc05e7f5f5f.svg",
+    "index.html": "/My_Storage_test_task/index.html",
+    "main.9db2c22f.css.map": "/My_Storage_test_task/static/css/main.9db2c22f.css.map",
+    "main.e1dd5fa1.js.map": "/My_Storage_test_task/static/js/main.e1dd5fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db2c22f.css",
+    "static/js/main.e1dd5fa1.js"
+  ]
+}
